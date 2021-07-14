@@ -6,14 +6,14 @@ You need to install <a href="https://www.anaconda.com/download/" target="_blank"
 From a bash terminal create the environment you will need:
 
 ```
-    conda create --name py3 --file spec-file.txt 
+    conda env create -f environment.yml
 ```
 
 
 If all goes well you should now have a properly configured python environment called py3.  Then activate the environment:
     
 ```
-     source activate py3
+     conda activate py3
 ```
 
 
